@@ -1,5 +1,5 @@
 # Water-Quality-Index-Analysis
-**This is a precursor github repository for a project regarding the SiDCreW project by Dr. Bihu Suchetana.**
+**This is a precursor github repository for a project called the SiDCreW project by Dr. Bihu Suchetana.**
 
 This repository outlines a project focused on **Advanced Remote Sensing and Machine Learning for Hydrological and Water Quality Management in a Changing Climate**. This initiative integrates cutting-edge remote sensing technologies with sophisticated machine learning and hydrological modeling techniques to provide enhanced capabilities for monitoring, assessing, and predicting water resource dynamics and quality under evolving environmental conditions.
 
