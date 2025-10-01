@@ -164,7 +164,7 @@ The notebooks demonstrate the following methodologies:
     *   Temporal trend analysis
     *   Spatial distribution mapping
 
-### 7. Future Directions
+### 6. Future Directions
 
 Continued research and development are vital to further advance the capabilities of remote sensing and machine learning in water resource management:
 *   **Enhanced Spatial and Temporal Resolution:** Development of hyper-spatio-temporal-resolution remote sensing products (e.g., SMOS-HR) for finer-scale monitoring.
@@ -177,6 +177,6 @@ Continued research and development are vital to further advance the capabilities
 *   **Real-world Implementations:** Prioritizing real-world implementations and prototypes of smart monitoring systems for water quality assessment.
 *   **Interdisciplinary Collaboration:** Fostering collaboration across scientific disciplines to achieve sustainable lake water quality management.
 
-### 8. Acknowledgements
+### 7. Acknowledgements
 
 This project synthesizes research from numerous academic contributions. Special appreciation is extended to the authors and funding bodies of the publications referenced within this README, particularly the collective works presented in "Remote Sensing in Hydrology and Water Resources Management", "Overview of the Application of Remote Sensing in Effective Monitoring of Water Quality Parameters", and "A Multi–Step Approach for Optically Active and Inactive Water Quality Parameter Estimation Using Deep Learning and Remote Sensing". The continuous advancements in remote sensing and hydrological sciences, as documented in these sources, form the foundation of this initiative.
