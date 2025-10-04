@@ -11,7 +11,7 @@ This project addresses the critical need for robust and efficient water resource
 *   Investigating the application of deep learning for multi-step forecasting of various water quality parameters.
 *   Assessing the impacts of climate change and land use on hydrological processes and water quality.
 
-**Practical Implementation:** This repository includes operational Jupyter notebooks demonstrating water quality analysis for real-world sites including the Mahananda River in Siliguri and multiple locations along the Ganga River (Varanasi, Kanpur, and Srerampur). These implementations utilize Google Earth Engine, Sentinel-2 satellite imagery, and Python-based geospatial analysis tools to monitor and assess water quality parameters.
+**Practical Implementation:** This repository includes operational Jupyter notebooks demonstrating water quality analysis for real-world sites including the Mahananda River in Siliguri and multiple locations along the Ganga River (Varanasi, Kanpur, and Srerampur). These implementations utilize Google Earth Engine, Sentinel-2 satellite imagery, and Python-based geospatial analysis tools to monitor and assess water quality parameters. The repository is organized with dedicated folders for each study site, including seasonal analysis (pre-monsoon and post-monsoon) for comprehensive temporal water quality monitoring.
 
 ### 2. Key Capabilities and Methodologies
 
@@ -110,30 +110,51 @@ The following tools and platforms support the project's analytical and computati
 
 ### 5. Implemented Jupyter Notebooks and Study Sites
 
-This repository includes several Jupyter notebooks demonstrating practical implementations of water quality analysis using remote sensing data:
+This repository includes several Jupyter notebooks demonstrating practical implementations of water quality analysis using remote sensing data. The repository is organized into study site-specific folders with seasonal analysis capabilities.
 
-#### 5.1. Study Sites
+#### 5.1. Repository Structure
 
-*   **Mahananda River, Siliguri:** Multiple analysis notebooks focus on this test site in Siliguri, India, utilizing Sentinel-2 surface reflectance data.
-*   **Ganga River:** Three major sites along the Ganga River are analyzed:
+```
+Water-Quality-Index-Analysis/
+├── 01-Siliguri/                    # Mahananda River, Siliguri study site
+├── 02-Ganga/                       # Ganga River study sites
+│   ├── 02-01-Premonsoon/          # Pre-monsoon seasonal analysis
+│   └── 02-02-Postmonsoon/         # Post-monsoon seasonal analysis
+└── 99-Archive/                     # Archived notebooks and experimental work
+```
+
+#### 5.2. Study Sites
+
+*   **Mahananda River, Siliguri (Folder: `01-Siliguri/`):** Multiple analysis notebooks focus on this test site in Siliguri, India, utilizing Sentinel-2 surface reflectance data for water quality parameter estimation and time series analysis.
+
+*   **Ganga River (Folder: `02-Ganga/`):** Three major sites along the Ganga River are analyzed with seasonal variations:
     *   **Varanasi** - Water quality index analysis with water body extraction
     *   **Kanpur** - Comprehensive WQI parameter estimation
     *   **Srerampur** - Multi-parameter water quality assessment
+    
+    Each site includes both **pre-monsoon** and **post-monsoon** analyses to capture seasonal variations in water quality parameters.
 
-#### 5.2. Notebook Implementations
+#### 5.3. Notebook Implementations
 
-**Siliguri Site Analysis:**
+**Siliguri Site Analysis (`01-Siliguri/`):**
 *   `1-Water_Quality_Index_Analysis-Test_Site_Siliguri.ipynb` - Initial test site visualization for water quality parameters
 *   `2-Water_Quality_Index_Analysis-Site-Siliguri-Final.ipynb` - Turbidity and TDS estimation using Sentinel-2 SR data
 *   `3-WQI-Timeseries-Site-Siliguri.ipynb` - Time series analysis for WQI parameters
-*   `Water_Quality_Index_Analysis_Test_Site_Siliguri.ipynb` - Comprehensive water quality parameter visualization
 
-**Ganga River Analysis:**
-*   `04-Water_Quality_Index-Ganga_River-Varanasi.ipynb` - Water quality index analysis for Varanasi site
-*   `05-Water_Quality_Index-Ganga_River-Kanpur.ipynb` - WQI parameter analysis for Kanpur site
-*   `06-Water_Quality_Index-Ganga_River-Srerampur.ipynb` - Water quality assessment for Srerampur site
+**Ganga River Pre-Monsoon Analysis (`02-Ganga/02-01-Premonsoon/`):**
+*   `04-Water_Quality_Index-Ganga_River-Varanasi.ipynb` - Pre-monsoon water quality index analysis for Varanasi site
+*   `05-Water_Quality_Index-Ganga_River-Kanpur.ipynb` - Pre-monsoon WQI parameter analysis for Kanpur site
+*   `06-Water_Quality_Index-Ganga_River-Srerampur.ipynb` - Pre-monsoon water quality assessment for Srerampur site
 
-#### 5.3. Methodologies Implemented
+**Ganga River Post-Monsoon Analysis (`02-Ganga/02-02-Postmonsoon/`):**
+*   `04-Water_Quality_Index-Ganga_River-postm-Varanasi.ipynb` - Post-monsoon water quality index analysis for Varanasi site
+*   `05-Water_Quality_Index-Ganga_River-postm-Kanpur.ipynb` - Post-monsoon WQI parameter analysis for Kanpur site
+*   `06-Water_Quality_Index-Ganga_River-postm-Srerampur.ipynb` - Post-monsoon water quality assessment for Srerampur site
+
+**Archived Notebooks (`99-Archive/`):**
+*   `Water_Quality_Index_Analysis_Test_Site_Siliguri.ipynb` - Early experimental water quality parameter visualization (archived)
+
+#### 5.4. Methodologies Implemented
 
 The notebooks demonstrate the following methodologies:
 
@@ -163,6 +184,12 @@ The notebooks demonstrate the following methodologies:
     *   Statistical visualization using Matplotlib and Seaborn
     *   Temporal trend analysis
     *   Spatial distribution mapping
+
+*   **Seasonal Analysis:**
+    *   Pre-monsoon water quality assessment (typically March-May)
+    *   Post-monsoon water quality assessment (typically October-November)
+    *   Comparative seasonal analysis to understand monsoon impacts on water quality
+    *   Temporal variation tracking across different seasons
 
 ### 6. Future Directions
 
