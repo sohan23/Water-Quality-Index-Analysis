@@ -8,6 +8,8 @@ This repository documents an independent exploration of water quality monitoring
 
 Traditional in-situ water quality monitoring faces limitations in spatial coverage, temporal resolution, and cost-effectiveness, particularly across large river systems. This project addresses these challenges by leveraging satellite remote sensing to monitor key water quality parameters across multiple study sites in North India.
 
+![Siliguri-Mahananda](~/03-Figures/Siliguri 2019 Premonsoon.png)
+
 ### Objectives
 
 - Demonstrate capabilities in satellite-based water quality parameter estimation
